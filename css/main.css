@@ -23,7 +23,6 @@ article {
   background-color: #dcd4cd;
   border: 3px #9a816d solid;
   border-radius: 3px;
-  padding: 1rem;
 }
 
 article:hover {
@@ -34,24 +33,35 @@ article:hover {
   display: inline-block;
   color: #512200;
   text-decoration: none;
+  padding: 1em;
+  margin: 0;
+  font-size: .875rem;
 }
 
 .list-2 {
   font-style: italic;
   color: #512200;
   text-decoration: none;
+  margin: 0;
+  font-size: .875rem;
 }
 
 .link-card h2 {
   font-family: Dosis, sans-serif;
   text-decoration: none;
   font-size: 1.5rem;
-  margin: 0 0 1rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 1em;
+  padding-bottom: 0;
 }
 
-header {
+header p {
   color: #512200;
   text-decoration: none;
+  padding: .2em 1em;
+  padding-bottom: 0;
+  font-size: 1.125rem;
 }
 
 .link-card {
@@ -65,8 +75,9 @@ header {
 
 .btn {
   margin: auto;
+  margin-bottom: 1em;
   display: block;
-  padding: .5em;
+  padding: .6em;
   background-color: #785439;
   color: #fff;
   text-align: center;
@@ -74,4 +85,5 @@ header {
   font-weight: bold;
   border-radius: 8px;
   max-width: 7em;
+  font-size: 1.125rem;
 }
