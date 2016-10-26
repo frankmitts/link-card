@@ -7,6 +7,7 @@
 html {
   box-sizing: border-box;
   font-family: Georgia, serif;
+  text-decoration: none;
 }
 
 *, *::before, *::after {
@@ -58,6 +59,9 @@ header {
   text-decoration: none;
 }
 
+.link-card:hover {
+  display: block;
+}
 
 .btn {
   margin: auto;
