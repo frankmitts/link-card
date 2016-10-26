@@ -6,8 +6,43 @@
 
 html {
   box-sizing: border-box;
+  color: #dcd4cd;
+
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  background-color: #cabdb2;
+  border: 3px  solid;
+  border-radius: 3px;
+}
+
+.link-card {
+  color: #512200;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link-card:hover {
+
+}
+
+.link-card h2 {
+
+}
+
+.btn {
+  background-color: #785439;
+  color: #fff;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #512200;
 }
