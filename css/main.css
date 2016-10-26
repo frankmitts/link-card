@@ -23,19 +23,21 @@ article {
   background-color: #dcd4cd;
   border: 3px #9a816d solid;
   border-radius: 3px;
+  margin: 0;
 }
 
 article:hover {
   background-color: #cabdb2;
+  margin: 0;
 }
 
 .list {
   display: inline-block;
   color: #512200;
   text-decoration: none;
-  padding: 1em;
+  padding: 0;
   margin: 0;
-  font-size: .875rem;
+  font-size: 1.125rem;
 }
 
 .list-2 {
@@ -43,7 +45,8 @@ article:hover {
   color: #512200;
   text-decoration: none;
   margin: 0;
-  font-size: .875rem;
+  font-size: 1.125rem;
+  text-align: inherit;
 }
 
 .link-card h2 {
@@ -52,16 +55,17 @@ article:hover {
   font-size: 1.5rem;
   font-weight: bold;
   margin: 0;
-  padding: 1em;
+  padding: .4em .75em .5em;
   padding-bottom: 0;
 }
 
 header p {
   color: #512200;
   text-decoration: none;
-  padding: .2em 1em;
-  padding-bottom: 0;
+  padding: .4em .75em .5em;
   font-size: 1.125rem;
+  text-align: left;
+  margin: 0;
 }
 
 .link-card {
@@ -86,4 +90,16 @@ header p {
   border-radius: 8px;
   max-width: 7em;
   font-size: 1.125rem;
+  text-decoration: none;
+}
+
+dt {
+  float: left;
+  width: 50%;
+}
+
+dl {
+  border-top: 2px #9a816d solid;
+  border-bottom: 2px #9a816d solid;
+  padding: 1rem;
 }
