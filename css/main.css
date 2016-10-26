@@ -103,3 +103,7 @@ dl {
   border-bottom: 2px #9a816d solid;
   padding: 1rem;
 }
+
+.btn:hover {
+  background-color: #512200;
+}
