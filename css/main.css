@@ -18,19 +18,6 @@ body {
   background-color: #f0eee8;
 }
 
-article {
-  display: block;
-  background-color: #dcd4cd;
-  border: 3px #9a816d solid;
-  border-radius: 3px;
-  margin: 0;
-}
-
-article:hover {
-  background-color: #cabdb2;
-  margin: 0;
-}
-
 .list {
   display: inline-block;
   color: #512200;
@@ -71,10 +58,17 @@ header p {
 .link-card {
   color: #512200;
   text-decoration: none;
+  display: block;
+  background-color: #dcd4cd;
+  border: 3px #9a816d solid;
+  border-radius: 3px;
+  margin: 0;
 }
 
 .link-card:hover {
   display: block;
+  background-color: #cabdb2;
+  margin: 0;
 }
 
 .btn {
